@@ -34,9 +34,19 @@
 }
 
 
+.body{
+    margin: 0;
+    font-family: 'PoppinsR';
+}
+
+.wreper {
+    max-width: 1134px;
+    margin: 0 auto;
+
+}
 .header {
-    position: absolute;
     display: flex;
+    position: absolute;
     justify-content: space-between;
     max-width: 1365px;
     height: 56px;
@@ -44,15 +54,7 @@
     top: 37px;
     margin: 0 auto;
     font-family: 'PoppinsR';
-}
-
-.SoleSpace {
-    margin: 0;
-    width: 189px;
-    height: 56px;
-    top: 37px;
-    left: 58px;
-
+    border: 1px ;
 }
 
 .Navigation {
@@ -76,7 +78,7 @@
 }
 
 .Navigation_Daftar{
-    margin-left: 447px;
+    margin-left: 500px;
     margin-right: 23px;
     
 }
@@ -91,12 +93,35 @@
     
 }
 
-.TagLine{
+.Tagline {
     position: absolute;
-    justify-content: space-between;
+    display: flex;
+    max-width: 1473.44px;
+    height: 567px;
+    left: 18px;
+    top: 126px;
+
 }
 
-.Tagline_clean{
-    font-weight: 700;
+.layanan-section{
+    margin: 0 auto;
+    
+    
 }
+
+.layanan-section .btn-layanan{
+    display: flex;
+    margin-top: 24px;;
+}
+
+.layanan-section .btn_sepatu {
+    text-align: center;
+    padding: 80px 30px;
+    background: #C5ECFF;
+    color: #000;
+    min-height: 310px;
+}
+
+
+
 

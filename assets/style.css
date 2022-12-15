@@ -10,14 +10,20 @@
 }
 
 @font-face {
-    font-family: 'Poppins';
+    font-family: 'PoppinsL';
     src: url(FONT/Poppins-Light.ttf);
     font-weight: 200;
 }
 
 @font-face {
-    font-family: 'Poppins';
+    font-family: 'PoppinsB';
     src: url(FONT/Poppins-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'PoppinsR';
+    src: url(FONT/Poppins-Regular.ttf);
     font-weight: 700;
 }
 
@@ -26,6 +32,7 @@
     --accent-color: rgba(10, 42, 56, 1);
     
 }
+
 
 .header {
     position: absolute;
@@ -36,7 +43,7 @@
     left: 58px;
     top: 37px;
     margin: 0 auto;
-    font-family: 'Poppins';
+    font-family: 'PoppinsR';
 }
 
 .SoleSpace {
@@ -53,22 +60,43 @@
     align-items: center;
 }
 
+.Navigation ul{
+    list-style: none;
+    text-decoration: none;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+    gap: 18px;
+}
+
 .Navigation a {
     text-decoration: none;
-    margin-left: 18px;
-    font-size: 24px;
-    color: var(--primary-color)
+    
 }
 
 .Navigation_Daftar{
-    padding-left: 500px;
-    ;
-
+    margin-left: 447px;
+    margin-right: 23px;
     
 }
 
 .Navigation_Masuk{
     border: 1px solid var(--primary-color);
+    padding: 4px 10px;
+    font-size: 24px;
+    font-family: 'Poppins';
+    color: #fff;
     background-color: var(--primary-color);
-    color: white;
+    
 }
+
+.TagLine{
+    position: absolute;
+    justify-content: space-between;
+}
+
+.Tagline_clean{
+    font-weight: 700;
+}
+

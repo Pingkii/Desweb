@@ -75,6 +75,13 @@ body{
     margin-right: 23px;
 }
 
+.header .Navigation_Masuk{
+    padding: 6px 12px;
+    font-size: 24px;
+    background: var(--primary-color);
+    color: #FFFFFF;
+}
+
 
 /* Taglin Section */
 
@@ -163,15 +170,131 @@ body{
 
 .layanan-section .btn-layanan{
     display: flex;
-    margin-left: 239px;
+    margin-left: 50px;
 
 }
 
 .layanan-section .btn_sepatu{
     text-align: center;
-    padding: 80px 30px;
+    padding: 30px 90px;
     background: #C5ECFF;
     color: #000;
-    min-height: 363px;
+    min-width: 200px;
+    height: 250px;
+    text-decoration: none;
+    
 }
+
+
+.btn_sepatu a {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn_sepatu:hover a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.btn_sepatu:hover{
+    background: #02567D;
+    color: #FFFFFF;
+}
+
+.layanan-section .Perawatan_Sepatu{
+    display: flexbox;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.layanan-section .Jual_Sepatu {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.layanan-section .beli_sepatu{
+    display: flexbox;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+/* Section pengunjung */
+
+.Pengunjung-section{
+    position: absolute;
+    width: 1468px;
+    height: 528px;
+    left: 24px;
+    top: 1332px;
+    background: linear-gradient(260.05deg, #075478 15.77%, #041E2B 95.03%);
+    background-blend-mode: darken;
+    border-radius: 30px;
+}
+
+.Pengunjung-section .Pengunjung ul{
+    text-align: center;
+    margin-top: 194px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    gap: 251px;
+}
+/* cara kerja section */
+.cara-section {
+    position: absolute;
+    width: 627.26px;
+    height: 816px;
+    left: 445.83px;
+    top: 2000px;
+}
+
+/* perawatan section */
+.perawatan-section{
+    position: absolute;
+    width: 1468px;
+    height: 1502px;
+    left: 24px;
+    top: 2852px;
+
+    background: linear-gradient(223.74deg, #065276 18.64%, #002637 81.21%);
+    border-radius: 30px;
+}
+
+.perawatan-section .perawatan{
+    position: absolute;
+    width: 1189.72px;
+    height: 1457px;
+    left: 158.07px;
+}
+
+/* Ingfo section */
+
+.ingfo-section{
+    position: absolute;
+    width: 1511px;
+    height: 404px;
+    left: 0px;
+    top: 4402px;
+    background: #065276;
+}
+
+.ingfo-section .ingfo{
+    padding-left: 228px;
+    padding-top: 86px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 
